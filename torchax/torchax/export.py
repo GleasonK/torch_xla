@@ -1,7 +1,7 @@
 # pylint: disable
 """Utilities for exporting a torch program to jax/stablehlo."""
 import copy
-from typing import Any, Dict, Tuple
+from typing import Any, Dict, Tuple, Optional
 import torch
 from torch.utils import _pytree as pytree
 from torchax import tensor
